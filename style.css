@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #f7cd75;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(129, 127, 127, 0.541);
+    display: flex;
+}
+
+/* BIG CARD RIGHT */
+
+.big-card-left {
+    background-color: #f2f2f2;
+    width: 35%;
+    height: 100%;
+    padding: 30px;
+    overflow-y: hidden;
+    border-radius: 5px;
+}
+
+.big-card-left:hover {
+    padding-right: 22px;
+    overflow-y: scroll;
+}
+
+/* SCROLL CSS */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+.left-card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.title-text {
+    font-weight: normal;
+}
+
+.title-img {
+    width: 25px;
+    height: 25px;
+}
+
+.left-mini-card {
+    width: 100%;
+    height: 40%;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #fff;
+    border: 3px solid #bbbbbb;
+    border-radius: 5px;
+}
+
+.for-border {
+    border: 3px solid #8797c6;
+}
+
+.card-number {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #585858;
+}
+
+.card-date {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #585858;
+}
+
+/* BIG CARD RIGHT */
+.big-card-right {
+    width: 65%;
+    height: 100%;
+    padding: 30px;
+    overflow-y: hidden;
+}
+
+.big-card-right:hover {
+    overflow-y: scroll;
+    padding-right: 22px;
+}
+
+/* SCROLL CSS */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.right-card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-bottom: 48px;
+    border-bottom: 2px solid #bbbbbb;
+}
+
+.title-text {
+    text-transform: capitalize;
+}
+
+.title-price {
+    font-size: 28px;
+}
+
+.right-mini-card {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.right-mini-card img {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #bbbbbb;
+    border-radius: 100%;
+}
+
+.central-title {
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.title-name {
+
+}
+
+.title-info {
+    padding-top: 5px;
+    color: rgb(136, 136, 136);
+}
+
+.price {
+    color: #8797c6;
+}
+
+.true-price {
+    color: #cae9b7;
+}
